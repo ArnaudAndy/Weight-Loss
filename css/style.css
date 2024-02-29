@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    nav a{
+        font-size: 1em;
+        color: #181818;
+        text-decoration: none;
+
+    }
+
+    .wrapper
+     {
+         margin: 0;
+         text-align: right;
+     }
+
+     header
+     {
+         border-bottom: 2px solid #eee;
+         background-color: rgb(43, 180, 43);
+         height: 117.03px;
+         color: white;
+        /* min-height: 30px;
+         margin-left: auto;
+         margin-right: auto;*/
+         margin-bottom: 20px;
+         margin-left: 10px;
+         margin-right: 10px;
+     }
+
+     header h1
+    {
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2em;
+    font-weight: normal;
+    text-align: left;
+
+    }
+
+
+     header li
+     {
+         display: inline-block;
+         vertical-align: top;
+         position: relative;
+     }
+
+     header li a
+     {
+         display: block;
+         padding: 20px;
+         color: white;
+         /*margin-top: 40px; */
+         font-size: 1.1em;
+     }
+
+     header li a:hover
+     {
+
+        background-color: white;
+        color: rgb(43, 180, 43);;
+
+     }
+
+     header li:hover .submenu
+     {
+
+         display: block;
+         padding: 0.1px;
+
+
+
+     }
+
+     .submenu
+     {
+         display: none;
+         position: absolute;
+         background-color: rgb(43, 180, 43);
+         width: 338.43px;
+         /*width: 98.8px;*/
+         font-size: 1.1em;
+         text-align: left;
+     }
+
+     .submenu li
+     {
+         display: block;
+         color: white;
+         margin-top: 20px;
+     }
+
+
+
+
+    .sec1{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(179, 205, 197);
+    }
+    .sec1 ul, .left{
+        align-self: center;
+    }
+    .sec5{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 5px;
+   /* text-align: justify;*/
+    }
+    .diet{
+    background-color: transparent;
+
+    }
+    .diet div{
+    align-self: center;
+    }
+
+    .sec6{
+    background-color: rgb(146, 216, 163);
+    }
+    .sect5{
+        margin-top: 40px;
+        /*width: 1200px;*/
+        min-height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(0, 0, 0, 0.671);
+
+
+    }
+    .sec5test{
+        text-align: left;
+    }
+    .dif2{
+       padding-top: 50px;
+        text-align: center;
+
+    }
+
