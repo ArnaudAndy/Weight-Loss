@@ -155,7 +155,8 @@ text-align: left;
     margin-bottom: 20px;
 }
 .dif1{
-    color: rgb(43, 180, 43);
+    /*color: rgb(221, 55, 111);*/
+    color: green;
 }
 .p1{
 text-align: justify;
@@ -165,9 +166,10 @@ text-align: justify;
     height: 380px;
     margin-left: auto;
     margin-right: auto;
-   /* background-color: aquamarine;*/
-   background-color: green;
+    /*background-color:  #ff6666;*/
+   background: linear-gradient(to right, rgba(172, 172, 3, 0.808), #0f6b3669);
     margin-bottom: 50px;
+    border-radius: 25%;
 
 }
 
@@ -294,4 +296,13 @@ text-align: justify;
    padding-top: 50px;
     text-align: center;
 
+}
+.id{
+    text-align: center;
+    font-size: 20px;
+}
+.id a{
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
 }
